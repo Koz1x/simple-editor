@@ -2,12 +2,34 @@
 
 @import "_variables";
 @import "modules/hello.scss";
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+
 
 body {
-  background: $wtf;
+  background: #D8A4A4;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  font-family: 'Inter Tight';
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.editor {
+  width: 100%;
+  max-width: 736px;
+}
+
+.form {
+  &__textarea {
+    width: 100%;
+    
+  }
+
 }
